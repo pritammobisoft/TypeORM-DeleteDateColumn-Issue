@@ -1,0 +1,16 @@
+{
+   "type": "postgres",
+   "host": "localhost",
+   "port": 5432,
+   "username": "postgres",
+   "password": "mobisoft",
+   "database": "test",
+   "synchronize": true,
+   "logging": true,
+   "entities": [
+      "entity/**/*.ts"
+    ],
+    "migrations": [
+       "/migration/**/*.ts"
+    ]
+ }
